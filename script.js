@@ -33,6 +33,7 @@ yesBtn.addEventListener('click', () => {
 });
 
 
+document.getElementById("noBtn").disabled = false;
 
 
 
@@ -116,3 +117,4 @@ musicToggle.addEventListener('click', () => {
     }
     isPlaying = !isPlaying;
 });
+
